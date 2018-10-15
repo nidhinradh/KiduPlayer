@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name" translatable="false">KiduPlayer</string>
+    <string name="title_about">About</string>
+
+    <string name="expansion_arrow_description">Expand List</string>
+    <string name="video_thumbnail_description">Video Thumbnail</string>
+
+    <string name="about_title">Feedback</string>
+    <string name="about_fileprovider" translatable="false">me.nidhinradh.kidu_player.fileprovider</string>
+    <string name="about_version">Version:</string>
+    <string name="about_send_feedback">Send Feedback</string>
+    <string name="about_message">Hey! Love or hate this app? I would love to hear from you.</string>
+    <string name="about_feedback_hint">Write your feedback here.</string>
+    <string name="about_email" translatable="false">kiduplayer.feedback@nidhinradh.me</string>
+    <string name="about_copy">Logo Icon made by Freepik from www.flaticon.com is licensed by CC 3.0 BY</string>
+
+    <string name="main_item"> Item</string>
+    <string name="main_items"> Items</string>
+
+    <string name="about_description">If you enjoy using KiduPlayer, would you mind taking a moment to rate it? It won\'t take more than a minute. Thanks for your support!</string>
+    <string name="about_play_url" translatable="false">me.nidhinradh.kidu_player</string>
+    <string name="about_play_title">Rate KiduPlayer</string>
+    <string name="about_group_title">Connect with me</string>
+    <string name="about_site_url" translatable="false">https://nidhinradh.me</string>
+    <string name="about_site_title">Website</string>
+    <string name="about_fb_url" translatable="false">nidhinradh</string>
+    <string name="about_fb_title">Facebook</string>
+    <string name="about_git_url" translatable="false">nidhinradh</string>
+    <string name="about_git_title">Github</string>
+    <string name="about_insta_url" translatable="false">nidhinradh</string>
+    <string name="about_insta_title">Instagram</string>
+
+
+    <string name="name_not_found_exception" translatable="false">NameNotFoundException</string>
+    <string name="io_exception" translatable="false">IOException</string>
+    <string name="settings_not_found_exception" translatable="false">SettingNotFoundException</string>
+    <string name="security_exception" translatable="false">SecurityException</string>
+</resources>

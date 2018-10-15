@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "me.nidhinradh.kidu_player"
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 2
+        versionName "0.1b-02"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation('org.rm3l:maoni:6.0.0@aar') {
+        transitive = true
+    }
+    implementation 'com.github.medyo:android-about-page:1.2.4'
+    implementation 'com.google.android.gms:play-services-vision:15.0.2'
+    implementation 'com.google.android.exoplayer:exoplayer-core:2.8.3'
+    implementation("com.google.android.exoplayer:exoplayer-ui:2.8.3") {
+        exclude group: "com.android.support"
+    }
+    implementation 'com.google.android.exoplayer:extension-rtmp:2.8.3'
+    implementation 'com.google.android.exoplayer:extension-mediasession:2.8.3'
+    implementation("com.github.bumptech.glide:glide:4.7.1") {
+        exclude group: "com.android.support"
+    }
+    implementation 'com.android.support:support-v4:28.0.0-rc01'
+    implementation 'com.android.support:animated-vector-drawable:28.0.0-rc01'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
+    implementation 'io.github.luizgrp.sectionedrecyclerviewadapter:sectionedrecyclerviewadapter:1.2.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0-rc01'
+    implementation 'com.android.support:design:28.0.0-rc01'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
